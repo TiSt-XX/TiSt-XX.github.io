@@ -5,11 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/df3742fefc.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <video autoplay loop playsinline id="bg-videos">
+        <source src="port/alya1.mp4" type="video/mp4">
+    </video>
+    <script>
+        const video = document.getElementById("bg-videos");
+
+        video.volume = 0.2;
+
+    document.addEventListener("visibilitychange", function (){
+        if (document.hidden) {
+            video.muted = true;
+        }
+        else {
+            video.muted = false;
+        }
+    });
+    </script>
+
+
+
+
     <div class="container">
         <div class="intext">
-            <h1>MY SERVER</h1>
+            <!-- <img src="port/ecm.gif" alt=""> -->
+            <div class="texts">
+                <h1 style="font-size: 30px;">@TIST, FRIST__.</h1>
+                <h2 style="margin-top: 20px;">ON DISCORD <i class="fa-brands fa-discord" style="color: #9d8bd1; size: 70px;"></i> Online 24/7h </h2>
+                <h2>i like anime Re:zero and </h2>
+                <h2>Like to Play Minecraft,</h2>
+                <h2>My TIME ZONE IS GMT+7</h2>
+            </div>
+            <div class="social">
+                    <h1 style="color: #9d8bd1;">SOCIAL</h1>
+                <div class="continerso">
+                    <div class="box">
+                        <div class="textso">
+                            <i class="fa-brands fa-discord" style="color: #9d8bd1; size: 70px;"></i>
+                            <a href="">TiSt</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="textso">
+                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/TiSt-XX">TiSt-XX</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="textso">
+                            <i class="fa-brands fa-instagram" style="color: #ff00dd;"></i>
+                            <a href="https://www.instagram.com/ut_ttttt/">ut_ttttt</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="textso">
+                            <i class="fa-brands fa-steam"></i>
+                            <a href="https://steamcommunity.com/profiles/76561199438351634/">TiSt</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="textso">
+                            <i class="fa-brands fa-duolingo" style="color: #63E6BE;"></i>
+                            <a href="">TiStPP</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
