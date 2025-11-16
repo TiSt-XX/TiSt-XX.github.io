@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <video autoplay loop playsinline id="bg-videos">
+    <video autoplay loop muted playsinline id="bg-videos">
         <source src="port/alya1.mp4" type="video/mp4">
     </video>
     <script>
@@ -17,14 +17,6 @@
 
         video.volume = 0.2;
 
-    document.addEventListener("visibilitychange", function (){
-        if (document.hidden) {
-            video.muted = true;
-        }
-        else {
-            video.muted = false;
-        }
-    });
     </script>
 
 
@@ -78,4 +70,5 @@
         </div>
     </div>
 </body>
+
 </html>
