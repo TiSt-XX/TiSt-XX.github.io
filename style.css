@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("port/pixel.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pixel";
+}
+
+body {
+    background-image: url(port/yellowstone-pixel-moewalls-com.gif);
+    background-size: cover;
+}
+
+.container {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 93%;
+    max-height: 90%;
+    width: 60%;
+    height: 90%;
+    /* margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; */
+    border-radius: 50px;
+    overflow: hidden;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+.intext {
+    display: block;
+    color:  white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
