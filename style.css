@@ -98,6 +98,13 @@
     height: 290px;
 }
 
+@media only screen and (min-width: 1600px) {
+  .texts {
+    max-height: 500px;
+    height: 500px;
+  }
+}
+
 #popup {
     position: fixed;
     top:0; left:0;
@@ -116,4 +123,5 @@
     padding: 15px 30px;
     font-size: 1.2rem;
     cursor: pointer;
+
 }
