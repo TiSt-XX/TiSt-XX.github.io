@@ -1,0 +1,165 @@
+@import url('more/satoshi.css');
+
+
+body {
+    font-family: Satoshi-Bold, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/03/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif');
+    background-size: cover; */
+    cursor: url(more/Static/Normal.cur),auto;
+}
+
+#bg-videos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%; /* เล็กน้อยเผื่อ crop */
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.continer {
+    color: white;
+    background: linear-gradient(
+    360deg,
+    rgba(64, 87, 163, 0.45) 5%,
+    rgba(0, 0, 0, 0.52) 32%
+  );
+  background-blend-mode: saturation;
+    max-width: 600px;
+    max-height: 590px;
+    width: 600px;
+    height: 590px;
+    border-radius: 20px;
+
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.enterbtu {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.enterbtu a {
+    text-decoration: none;
+    color: wheat;
+    cursor: url(more/Static/Link.cur)12 12,auto;
+
+}
+
+.textcon {
+    margin-bottom: 40px;
+    text-align: center;
+    display: block;
+}
+
+.textcon p {
+    font-size: 23px;    
+}
+
+.imgs img {
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 170px;
+    height: 170px;
+}
+
+.btusocia {
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.btusocia button {
+    background-color: rgba(64, 87, 163, 0.15);
+    font-family: Satoshi-Bold, sans-serif;
+    color: rgb(245, 245, 245);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    cursor: url(more/Static/Link.cur)12 12,auto;
+}
+
+.socia {
+    color: white;
+    background: linear-gradient(
+    360deg,
+    rgba(64, 87, 163, 0.45) 5%,
+    rgba(0, 0, 0, 0.52) 32%
+  );
+  background-blend-mode: saturation;
+    max-width: 700px;
+    max-height: 590px;
+    width: 700px;
+    height: 390px;
+    border-radius: 20px;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+
+.continersocia {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+    flex-flow: wrap;
+    
+}
+
+.continersocia a {
+    color: white;
+    text-align: center;
+    background: linear-gradient(
+    360deg,
+    /* rgba(64, 87, 163, 0.45) 5%, */
+    rgba(0, 0, 0, 0.52) 32%
+  );
+    width: 100px;
+    height: 25px;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: url(more/Static/Link.cur)12 12,auto;
+}
+
